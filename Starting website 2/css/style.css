@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #222;
+    color: #252525;
 }
 
 .d-bloc .a-btn:hover,
@@ -1098,7 +1098,7 @@ blockquote {
     font-size: 14px;
 }
 
-#bloc-8 .col-sm-12 adress {
+#bloc-8 .col-sm-12 address {
     font-size: 14px;
     color:#333!important;
     margin-bottom:20px;
@@ -1130,4 +1130,47 @@ blockquote {
 .lightbox-caption {
     font-size:20px;
     text-align:center;
+}
+
+/* MODOFiCATION PAGE 2 */
+
+
+#bloc-6 p {
+    font-size: 18px;
+}
+
+#bloc-7 .row {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+}
+
+#bloc-7 .col-sm-6:nth-child(2) {
+    display:flex;
+    flex-flow:row wrap;
+    align-content:center;
+}
+
+#bloc-7 .col-sm-6:nth-child(2) p{
+    text-align:center;
+    font-size:18px;
+    font-weight:800;
+    padding:50px 40px;
+    height:max-content;
+    width:100%;
+}
+
+.social {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+#bloc-7 button{
+    color:#252525!important;
+    background-color:blanchedalmond;
+}
+
+#bloc-7 button:hover{
+    color:white!important;
 }
