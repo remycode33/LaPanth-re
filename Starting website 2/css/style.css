@@ -1091,7 +1091,9 @@ blockquote {
     position:absolute;
     z-index: 2;
     margin:auto;
-
+    background-color: rgba(0,0,0,0.2);
+    border-radius:25px;
+    padding:5px 10px;
 }
 
 .bloc-lg p {
@@ -1131,9 +1133,18 @@ blockquote {
     font-size:20px;
     text-align:center;
 }
+body .btn {
+    color:blanchedalmond!important;
+}
 
 /* MODOFiCATION PAGE 2 */
-
+#bloc-6 .col-sm-12 {
+    background-color:rgba(0,0,0,0.05);
+    box-shadow: rgba(0,0,0,0.05) 0px 0px 100px 50px;
+    padding-bottom:10px;
+    border-radius:40px;
+    text-align:center;
+}
 
 #bloc-6 p {
     font-size: 18px;
@@ -1153,7 +1164,8 @@ blockquote {
 
 #bloc-7 .col-sm-6:nth-child(2) p{
     text-align:center;
-    font-size:18px;
+    font-size:20px;
+    line-height:2.5em;
     font-weight:800;
     padding:50px 40px;
     height:max-content;
