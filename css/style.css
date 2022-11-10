@@ -1137,6 +1137,12 @@ body .btn {
     color:blanchedalmond!important;
 }
 
+#bloc-4-portfolio a {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+}
+
 /* MODOFiCATION PAGE 2 */
 #bloc-6 .col-sm-12 {
     background-color:rgba(0,0,0,0.05);
